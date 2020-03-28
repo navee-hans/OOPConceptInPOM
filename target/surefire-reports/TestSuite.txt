@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 284.713 sec <<< FAILURE! - in TestSuite
+setUpTest(com.mytests.LoginTest)  Time elapsed: 25.732 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A2HUG71', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="my hub spot test firefox(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.mytests.LoginTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginPageHeaderTest"/>
+          <include name="doLoginTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.mytests.LoginTest -->
+    </classes>
+  </test> <!-- my hub spot test firefox(failed) -->
+</suite> <!-- Failed suite [suite] -->
