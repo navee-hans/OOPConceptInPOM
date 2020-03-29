@@ -22,8 +22,10 @@ public class HomePage extends BasePage {
 		return getPageTitle();
 	}
 	
-	/** Change made for resolving conflicts
-	*/
+	/**
+	 * 
+	 * @return test
+	 */
 	public String getHomePageHeader(){
 		return getPageHeader(header);
 	}
