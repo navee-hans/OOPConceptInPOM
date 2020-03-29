@@ -42,7 +42,8 @@ public class BasePage extends Page{
 			wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 		}catch(Exception e)
 		{
-			System.out.println("Som exception occurred while waiting for the element " + locator.toString());
+			System.out.println("Some exception occurred while waiting for the element " + locator.toString());
+			System.out.println("Some exception occurred while waiting for the element learning conflicts resolving" + locator.toString());
 		}
 		
 	}
