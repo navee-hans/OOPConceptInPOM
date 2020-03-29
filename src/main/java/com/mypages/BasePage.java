@@ -42,12 +42,9 @@ public class BasePage extends Page{
 			wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 		}catch(Exception e)
 		{
-<<<<<<< HEAD
 			System.out.println("Som exception occurred while waiting for the element " + locator.toString());
 			System.out.println("Som exception occurred while waiting for the element resolve conflicts " + locator.toString());
-=======
 			System.out.println("Som exception occurred while waiting for the element" + locator.toString());
->>>>>>> test
 			System.out.println("learning conflicts resolving" + locator.toString());
 		}
 		
