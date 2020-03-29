@@ -43,7 +43,6 @@ public class BasePage extends Page{
 		}catch(Exception e)
 		{
 			System.out.println("Som exception occurred while waiting for the element " + locator.toString());
-			System.out.println("Som exception occurred while waiting for the element resolve conflicts " + locator.toString());
 			System.out.println("learning conflicts resolving" + locator.toString());
 		}
 		
