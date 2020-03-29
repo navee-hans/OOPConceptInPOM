@@ -30,7 +30,7 @@ public class BasePage extends Page{
 				return element;
 		}catch(Exception e)
 		{
-			System.out.println("Some error occurred while creating the element " + locator.toString());
+			System.out.println("Element not found error on DOM " + locator.toString());
 			e.printStackTrace();
 		}
 		return element;
